@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class Root {
     @GetMapping("/")
     public String init() {
-        return "Hola Mundo!";
+        return "Hola Mundoconfigurado para build desde git!";
     }
 }
